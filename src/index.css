@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+*{
+  top: 0;
+  position: relative;
+  max-width: 1500px;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'DM Sans', sans-serif;
+}
+.sectionOne{
+  background-image: url('assets/Gradient.png');
+  position: absolute;
+  height: 800px;
+  width: 100vw;
+  top: 0;
+}
+
+.nav{
+  position: absolute;
+  width: 900px;
+  height: 25px;
+  left: calc(50% - 900px/2 + 13px);
+  top: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem 1.5rem;
+  color: #FEFEFE;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.land{
+  position: absolute;
+  width: 776px;
+  height: 166px;
+  left: 303px;
+  top: 275.3px;
+  font-family: 'Sora', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 104%;
+  letter-spacing: -0.02em;
+  color: #FEFEFE;
+}
+
+.sOp{
+  /* Custom-built resumes that match your goals, keywords, and recruiter expectations. */
+
+  position: absolute;
+  width: 613px;
+  height: 42px;
+  left: 311px;
+  top: 483px;
+  font-family: 'DM Sans', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 104%;
+  letter-spacing: -0.02em;
+  color: #FEFEFE;
+}
+
+.gsO{
+  position: absolute;
+  width: 215.69px;
+  height: 67.72px;
+  left: 303px;
+  top: 567.81px;
+}
+
+.hww{
+  font-family: 'DM Sans', serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #0649E7;
+  position: absolute;
+  width: 251px;
+  height: 42px;
+  left: 310px;
+  top: 931px;
+  font-style: normal;
+  line-height: 104%;
+  letter-spacing: -0.04em;
+}
+
+.sectionTwo-sub-btn-one{
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+  border: 1.5px solid #022183;
+  position: absolute;
+  left: 310px;
+  top: 1081px;
+}
+.sectionTwo-sub-btn-two{
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+  border: 1.5px solid #022183;
+  position: absolute;
+  left: 510px;
+  top: 1081px;
+}
+.sectionTwo-sub-btn-three{
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+  border: 1.5px solid #022183;
+  position: absolute;
+  left: 730px;
+  top: 1081px;
+}
+.sectionTwo-sub-btn-four{
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 950px;
+  top: 1081px;
+  border: 1.5px solid #022183;
+}
+
+.sectionTwo-sub-p-one{
+  font-family: 'DM Sans', serif;
+  font-size: 18px;
+  position: absolute;
+  width: 230px;
+  height: 27px;
+  left: 311px;
+  top: 1200px;
+  font-style: normal;
+  line-height: 104%;
+  letter-spacing: -0.02em;
+  color: #0649E7;
+  text-align: justify;
+}
+
+.sectionTwo-sub-p-two{
+  position: absolute;
+  width: 167px;
+  left: 528px;
+  top: 1200px;
+  font-family: 'DM Sans', serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 104%;
+  letter-spacing: -0.02em;
+  color: #0649E7;
+  text-align: justify;
+}
+
+.sectionTwo-sub-p-three{
+  position: absolute;
+  width: 167px;
+  left: 730px;
+  top: 1200px;
+  font-family: 'DM Sans', serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 104%;
+  letter-spacing: -0.02em;
+  color: #0649E7;
+  text-align: justify;
+}
+
+.sectionTwo-sub-p-four{
+  position: absolute;
+  width: 260px;
+  left: 951px;
+  top: 1200px;
+  font-family: 'DM Sans',serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 104%;
+  letter-spacing: -0.02em;
+  color: #0649E7;
+}
+
+.sectionThree{
+  background-image: linear-gradient(to bottom, #101010, #022183, #0649E7);
+  background-size: cover;
+  background-repeat: repeat-y;
+  position: absolute;
+  top: 1500px; /* (optional) move it down below the previous sections */
+  width: 100vw; /* Make it full screen width */
+  height: 1000px; /* Or however tall you want the gradient section */
+}
+
+.sectionThree h1{
+  position: absolute;
+  width: 163px;
+  height: 42px;
+  left: 311px;
+  top: 70px;
+  font-family: 'DM Sans', serif;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 104%;
+  letter-spacing: -0.04em;
+  color: #FEFEFE;
+}
+.photo-ashwin {
+  background-image: url('assets/photos/Ashwin.png'); /* <- add leading slash to path */
+  background-color: #FEFEFE;
+  background-size: cover;
+  background-position-x: 1px;
+  background-position-y: 1px;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  position: absolute;
+  top: 22.67%;
+  left: 300px;
+  height: 100px;
+  width: 100px;
+}
+
+.ashwin{
+  position: absolute;
+  left: 45.65%;
+  right: 26.38%;
+  top: 22.67%;
+  bottom: 75.08%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 104%;
+  letter-spacing: -0.02em;
+  color: #FEFEFE;
+  text-align: justify;
+}
+
+.photo-Nicole {
+  background-image: url('assets/photos/Nicole.png'); /* <- add leading slash to path */
+  background-color: #FEFEFE;
+  background-size: cover;
+  background-position-x: 1px;
+  background-position-y: 1px;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  position: absolute;
+  top: 560px;
+  left: 300px;
+  height: 100px;
+  width: 100px;
+}
+
+.nicole{
+  position: absolute;
+  left: 45.63%;
+  right: 26.4%;
+  top: 560px;
+  bottom: 70.66%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 104%;
+  letter-spacing: -0.02em;
+  color: #FEFEFE;
+}
+
+.sectionThree-L1{
+  position: relative;
+  left: 576px;
+  top: 800px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 104%;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.sectionThree-L2{
+  position: absolute;
+  left: 600px;
+  top: 850px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 104%;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.sectionFour{
+  height: 800px;
+  width: 100vw;
+  background-color: #FEFEFE;
+  top: 2500px;
+}
+
+.fourH2{
+  position: absolute;
+  width: 492px;
+  height: 42px;
+  left: 314px;
+  top: 126px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 104%;
+  letter-spacing: -0.04em;
+  color: #0649E7;
+}
+
+.sectionFour-container1-1{
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 312px;
+  top: 182px;
+  background: #FEFEFE;
+  border: 2px solid #0649E7;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.playbtn-1{
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 125px;
+  top: 75px;
+}
+.sectionFour-container1-2{
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  left: 312px;
+  top: 380px;
+  background: #0649E7;
+  border: 2px solid #0649E7;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.sectionFour-container1-2 p{
+  font-family: 'DM Sans';
+  color: #FEFEFE;
+  width: 250px;
+  text-align: justify;
+  padding: 10px;
+  position: relative;
+}
+
+.sectionFour-container2-1{
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 712px;
+  top: 182px;
+  background: #FEFEFE;
+  border: 2px solid #0649E7;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.playbtn-2{
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 120px;
+  top: 75px;
+}
+.sectionFour-container2-2{
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  left: 712px;
+  top: 380px;
+  background: #0649E7;
+  border: 2px solid #0649E7;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.sectionFour-container2-2 p{
+  font-family: 'DM Sans';
+  color: #FEFEFE;
+  width: 250px;
+  text-align: justify;
+  padding: 10px;
+  position: relative;
+}
+.sectionFour-container3-1{
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 1100px;
+  top: 182px;
+  background: #FEFEFE;
+  border: 2px solid #0649E7;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.playbtn-3{
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 120px;
+  top: 75px;
+}
+.sectionFour-container3-2{
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  left: 1100px;
+  top: 380px;
+  background: #0649E7;
+  border: 2px solid #0649E7;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.sectionFour-container3-2 p{
+  font-family: 'DM Sans';
+  color: #FEFEFE;
+  width: 250px;
+  text-align: justify;
+  padding: 10px;
+  position: relative;
+}
+.sectionFour-b1{
+  position: absolute;
+  width: 250px;
+  height: 62px;
+  left: calc(50% - 350px/2 - 145px);
+  top: 600px;
+  box-sizing: border-box;
+  background: #FEFEFE;
+  border: 2px solid #0649E7;
+  border-radius: 36px;
+}
+.sectionFour-b2{
+  position: absolute;
+  width: 211px;
+  height: 62px;
+  left: calc(50% - 211px/2 + 215.5px);
+  top: 600px;
+  background: #0649E7;
+  border-radius: 36px;
+  border-style: none;
+  font-family: 'DM Sans';
+  color: #FEFEFE;
+}
+.sectionFive{
+  height: 700px;
+  width: 75vw;
+  background-color: #F8FAFF;
+  top: 2600px;
+  left: 300px;
+  border-radius: 20px;
+}
+
+.sFive-h2{
+  position: absolute;
+  width: 296px;
+  height: 42px;
+  left: 110px;
+  top: 50px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 40px;
+  line-height: 104%;
+  letter-spacing: -0.04em;
+  color: #022183;
+}
+
+.sFive-c1{
+  box-sizing: border-box;
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  left: 92px;
+  top: 182px;
+  background: #F8FAFF;
+  border: 2px solid #0649E7;
+  border-radius: 20px;
+}
+.sFive-c2{
+  box-sizing: border-box;
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  left: 412px;
+  top: 182px;
+  background: #F8FAFF;
+  border: 2px solid #0649E7;
+  border-radius: 20px;
+}
+.sFive-c3{
+  box-sizing: border-box;
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  left: 712px;
+  top: 182px;
+  background: #F8FAFF;
+  border: 2px solid #0649E7;
+  border-radius: 20px;
+}
+.sFive-c1 h4 {
+  position: absolute;
+  width: 250px;
+  height: 41px;
+  left: 15.25px;
+  top: 50px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: -0.1em;
+  color: #022183;
+}
+
+.sFive-c1 p{
+  position: absolute;
+  top: 150px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: -0.04em;
+  color: #022183;
+}
+.sFive-c2 h4 {
+  position: absolute;
+  width: 250px;
+  height: 41px;
+  left: 15.25px;
+  top: 50px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: -0.1em;
+  color: #022183;
+}
+
+.sFive-c2 p{
+  position: absolute;
+  top: 150px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: -0.04em;
+  color: #022183;
+}
+.sFive-c3 h4 {
+  position: absolute;
+  width: 250px;
+  height: 41px;
+  left: 15.25px;
+  top: 50px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: -0.1em;
+  color: #022183;
+}
+
+.sFive-c3 p{
+  position: absolute;
+  top: 150px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: -0.04em;
+  color: #022183;
+}
